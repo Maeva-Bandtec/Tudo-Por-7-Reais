@@ -1,0 +1,113 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="Cabecalho" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <script src="../Scripts/JavaScript.js" type="text/javascript"></script>
+    <script src="../Scripts/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../Scripts/bootstrap.js" type="text/javascript"></script>
+    <script src="../Scripts/jquery-2.1.1.intellisense.js"></script>
+    <script src="../Scripts/jquery-2.1.1.js"></script>
+    <script src="../Scripts/jquery-2.1.1.min.js"></script>
+
+    <link href="css/MasterPage.css" rel="stylesheet" />
+    <link href="css/Style.css" rel="stylesheet" />
+
+    <link rel="icon" href="images/favicon.ico" type="image/ico" />
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="css/bootstrap-theme.css" rel="stylesheet" />
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server" />
+        <div class="divBG">
+            <div id="popback" class="popupSenhaBack" runat="server"></div>
+            <div>
+                <header>
+                    <div id="topo" class="divTopoMaster">
+                        <div id="divUser" class="divUserMaster" runat="server">
+                            <img src="/images/usuario.png" id="imgUser" class="imgUser" width="50" height="50" runat="server" /><br />
+                            <div class="divDivUserMaster" style="margin-bottom: 18px">
+                                <asp:Label ID="lblUsuario" Text="Felipe Mikio de Vasconcelos Monobe" CssClass="lblDivUserMaster" runat="server"></asp:Label><br />
+                            </div>
+                            <a class="aDivUserMaster" onclick="controlePop('popfore', 'popback'); limparCampos('popforeinterna');" tabindex="-1">
+                                <div class="divDivUserMaster">Alterar dados</div>
+                            </a>
+                            <a class="aDivUserMaster" id="servicos" href="/Usuario/CadastroServicos.aspx" tabindex="-1" runat="server">
+                                <div class="divDivUserMaster">Gerenciar Serviços</div>
+                            </a>
+                            <a class="aDivUserMaster" id="pedidos" href="/Usuario/Pedidos.aspx" tabindex="-1" runat="server">
+                                <div class="divDivUserMaster">Pedidos</div>
+                            </a>
+                            <a class="aDivUserMaster" id="inbox" href="/Usuario/Inbox.aspx" tabindex="-1" runat="server">
+                                <div class="divDivUserMaster">Inbox</div>
+                            </a>
+                            <asp:LinkButton ID="btnSair" CssClass="aDivUserMaster" UseSubmitBehavior="false" OnClientClick="return confirm('Deseja mesmo sair?');" TabIndex="-1" OnClick="btnSair_Click" runat="server"><div class="divDivUserMaster">Sair</div></asp:LinkButton>
+                        </div>
+
+                        <div id="divDeslogado" style="position: absolute; margin-top: 20px; right: 10.5%" runat="server">
+                            <asp:Button CssClass="btn btn-success btn-xs" ID="Button1" Text="Login" Width="67" Height="20" runat="server" OnClick="btnEntrar_Click" UseSubmitBehavior="false" /><br />
+                            <asp:Button CssClass="btn btn-success btn-xs" ID="Button2" Text="Cadastrar" Height="20" OnClick="btnCadastrar_Click" UseSubmitBehavior="false" runat="server" />
+                        </div>
+                        <div style="width: 100%; height: 4px; position: relative; top: 0px; left: 0px; background-color: #96CA2D"></div>
+
+                        <nav class="navTopoMaster">
+                            <a class="aNav" id="hm" href="/Home.aspx">
+                                <div class="divNav" id="divHome" runat="server">home</div>
+                            </a>
+                            <a class="aNav" id="sv" href="/Servicos.aspx">
+                                <div class="divNav" id="divServicos" runat="server">serviços</div>
+                            </a>
+                            <a class="aNav" id="qs" href="/QuemSomos.aspx">
+                                <div class="divNav" id="divQuemSomos" runat="server">quem</div>
+                            </a>
+                            <a class="aNav" id="fc" href="/Fale_Conosco.aspx">
+                                <div class="divNav" id="divContato" runat="server">contato</div>
+                            </a>
+                            <a class="aNav" id="faq" href="/FAQ.aspx">
+                                <div class="divNav" id="divFaq" runat="server">faq</div>
+                            </a>
+                        </nav>
+                    </div>
+                </header>
+                <div id="popfore" class="popupSenhaFore" runat="server">
+                    <div id="popforeinterna" style="margin-bottom: 10px; width: 290px">
+                        Senha antiga:
+                        <asp:TextBox ID="txtSenhaOld" CssClass="form-control" TextMode="Password" TabIndex="-1" runat="server"></asp:TextBox>
+                        Nova senha:
+                        <asp:TextBox ClientIDMode="Static" CssClass="form-control" ID="txtSenhaNew" TabIndex="-1" TextMode="Password" runat="server"></asp:TextBox>
+                        Confirme nova senha:
+                        <asp:TextBox ClientIDMode="Static" CssClass="form-control" ID="txtSenhaNewConfirm" TextMode="Password" TabIndex="-1" runat="server"></asp:TextBox>
+                    </div>
+                    <asp:Button ID="btnEnviarSenha" ClientIDMode="Static" UseSubmitBehavior="false" CssClass="btn btn-success" TabIndex="-1" Text="Trocar senha!" OnClick="btnEnviarSenha_Click" runat="server"></asp:Button>
+                </div>
+            </div>
+            <div class="divConteudo">
+                <asp:ContentPlaceHolder ID="Corpo" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <footer>
+                <div class="divFooterMaster">[ 2013 - 2014 Maeva Inc. - Todos os direitos reservados ]</div>
+            </footer>
+        </div>
+
+        <script type="text/javascript">
+            function pHover(txt) {
+                document.getElementById('resHover').innerHTML = txt;
+            }
+        </script>
+
+        <asp:ContentPlaceHolder ID="Rodape" runat="server">
+        </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

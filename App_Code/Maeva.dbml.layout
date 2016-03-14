@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 20, 18.625" name="Maeva">
+  <DataContextMoniker Name="/MaevaDataContext" />
+  <nestedChildShapes>
+    <classShape Id="5f4d502c-cb2f-4310-88f9-a658af6715d7" absoluteBounds="0.75, 10.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/MaevaDataContext/aspnet_Application" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4149f2ba-b436-4e81-8e46-1f6b7dd6ab78" absoluteBounds="0.765, 11.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="65cb7a3b-aae4-4156-b8f9-85fb542a7c24" absoluteBounds="12, 15, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/MaevaDataContext/Usuario" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4c62b89c-093a-4686-8594-054467045270" absoluteBounds="12.015, 15.46, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="62759c1e-3597-451d-8244-3553807709d0" absoluteBounds="9.25, 13.375, 2, 4.8477197265625005">
+      <DataClassMoniker Name="/MaevaDataContext/aspnet_Membership" />
+      <nestedChildShapes>
+        <elementListCompartment Id="25d5ad65-25d9-4e5b-87ab-13fbcfedbe9e" absoluteBounds="9.265, 13.835, 1.9700000000000002, 4.2877197265625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0e5c62d6-da4b-4dba-9305-4b6a443ef606" absoluteBounds="3.5, 8, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/MaevaDataContext/aspnet_Path" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d29bdfbf-f0c9-4512-99ea-ab9ed5928e7c" absoluteBounds="3.515, 8.46, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4186b0be-207e-4a20-9fac-1320f17f3f01" absoluteBounds="6.25, 8.125, 2, 1.3862939453124987">
+      <DataClassMoniker Name="/MaevaDataContext/aspnet_PersonalizationAllUser" />
+      <nestedChildShapes>
+        <elementListCompartment Id="72c36345-aa8f-4630-bd8f-2cbbbfe6bc30" absoluteBounds="6.265, 8.585, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="201c3499-3e71-4b89-b204-3d5593924072" absoluteBounds="9.25, 10.625, 2, 1.7708968098958344">
+      <DataClassMoniker Name="/MaevaDataContext/aspnet_PersonalizationPerUser" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cb98c844-a336-45ad-b0ee-4ff188e88399" absoluteBounds="9.265, 11.085, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d53367bd-964b-42d5-a3df-b7cb1dae0c50" absoluteBounds="6.25, 13, 2, 1.7708968098958344">
+      <DataClassMoniker Name="/MaevaDataContext/aspnet_Profile" />
+      <nestedChildShapes>
+        <elementListCompartment Id="154b5454-e79c-4b4c-87af-f2976be6908e" absoluteBounds="6.265, 13.46, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e1bfa9af-1bcb-4019-8368-9f0993528c73" absoluteBounds="3.5, 10.375, 2, 1.7708968098958344">
+      <DataClassMoniker Name="/MaevaDataContext/aspnet_Role" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2042076d-5418-4f40-9b80-3d5130984728" absoluteBounds="3.515, 10.835, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="865a8205-830f-4c94-909e-627d4d04c27d" absoluteBounds="0.75, 0.75, 2, 1.3862939453125">
+      <DataClassMoniker Name="/MaevaDataContext/aspnet_SchemaVersion" />
+      <nestedChildShapes>
+        <elementListCompartment Id="94a07d5e-bfad-45e5-a768-1ff9b6d8abcf" absoluteBounds="0.765, 1.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="51165c6a-a11f-4282-aa52-c6fb6b748362" absoluteBounds="3.5, 12.875, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/MaevaDataContext/aspnet_User" />
+      <nestedChildShapes>
+        <elementListCompartment Id="db647569-9012-4c44-9f86-180e79d098fe" absoluteBounds="3.515, 13.335, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3416e008-b286-4182-b08c-31caca37fd66" absoluteBounds="6.25, 11, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/MaevaDataContext/aspnet_UsersInRole" />
+      <nestedChildShapes>
+        <elementListCompartment Id="61b883ae-014c-4807-a67e-965da4c59c2b" absoluteBounds="6.265, 11.46, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="15f46fad-5b0a-4fdc-a64b-842a4ff3b14e" absoluteBounds="3.75, 0.75, 2, 3.6939111328124996">
+      <DataClassMoniker Name="/MaevaDataContext/aspnet_WebEvent_Event" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d418b9d9-aa6a-4afd-b2a3-d5ad3b0bb10b" absoluteBounds="3.765, 1.21, 1.9700000000000002, 3.1339111328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4e0d55d1-16ae-49d2-b504-3a840e5eb129" absoluteBounds="15, 11.25, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/MaevaDataContext/Categoria" />
+      <nestedChildShapes>
+        <elementListCompartment Id="58c81ab9-f576-4b14-8140-0ecdba654bdf" absoluteBounds="15.015, 11.71, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="306e31d1-111c-434c-93b4-91126cbdc421" absoluteBounds="6.75, 0.75, 2, 1.9631982421875003">
+      <DataClassMoniker Name="/MaevaDataContext/FaleConosco" />
+      <nestedChildShapes>
+        <elementListCompartment Id="da14196d-4461-4f0c-b3b2-7162d47394c1" absoluteBounds="6.765, 1.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6a20b6d9-1438-44f8-a620-871156a27d14" absoluteBounds="14.75, 15.875, 2, 2.5401025390625005">
+      <DataClassMoniker Name="/MaevaDataContext/PerguntasVendedor" />
+      <nestedChildShapes>
+        <elementListCompartment Id="20a0cf97-ab09-4c11-a3dc-e49f2faa3962" absoluteBounds="14.765, 16.335, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c5385535-14c7-49af-958c-434afaf01d76" absoluteBounds="17.75, 14.25, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/MaevaDataContext/Servico" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e3cb38ee-6ee8-4bf6-ae5b-8391649e27e7" absoluteBounds="17.765, 14.71, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ca156c96-763e-4f05-b49b-3327635fb545" absoluteBounds="14.75, 13.25, 2, 1.9631982421874987">
+      <DataClassMoniker Name="/MaevaDataContext/ServicosVendido" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7530755a-e85c-4db6-b0db-0e2554bf8c7c" absoluteBounds="14.765, 13.71, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(11.25 : 15.7892976888021); (12 : 15.7892976888021)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/MaevaDataContext/aspnet_Membership/aspnet_Membership_Usuario" />
+      <nodes>
+        <classShapeMoniker Id="62759c1e-3597-451d-8244-3553807709d0" />
+        <classShapeMoniker Id="65cb7a3b-aae4-4156-b8f9-85fb542a7c24" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.75 : 12.3285953776042); (1.75 : 16.6578597005208); (9.25 : 16.6578597005208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/MaevaDataContext/aspnet_Application/aspnet_Application_aspnet_Membership" />
+      <nodes>
+        <classShapeMoniker Id="5f4d502c-cb2f-4310-88f9-a658af6715d7" />
+        <classShapeMoniker Id="62759c1e-3597-451d-8244-3553807709d0" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.75 : 10.75); (1.75 : 8.78929768880208); (3.5 : 8.78929768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/MaevaDataContext/aspnet_Application/aspnet_Application_aspnet_Path" />
+      <nodes>
+        <classShapeMoniker Id="5f4d502c-cb2f-4310-88f9-a658af6715d7" />
+        <classShapeMoniker Id="0e5c62d6-da4b-4dba-9305-4b6a443ef606" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 8.81814697265625); (6.25 : 8.81814697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/MaevaDataContext/aspnet_Path/aspnet_Path_aspnet_PersonalizationAllUser" />
+      <nodes>
+        <classShapeMoniker Id="0e5c62d6-da4b-4dba-9305-4b6a443ef606" />
+        <classShapeMoniker Id="4186b0be-207e-4a20-9fac-1320f17f3f01" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 8.03125); (10.25 : 8.03125); (10.25 : 10.625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/MaevaDataContext/aspnet_Path/aspnet_Path_aspnet_PersonalizationPerUser" />
+      <nodes>
+        <classShapeMoniker Id="0e5c62d6-da4b-4dba-9305-4b6a443ef606" />
+        <classShapeMoniker Id="201c3499-3e71-4b89-b204-3d5593924072" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 11.4479484049479); (3.5 : 11.4479484049479)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/MaevaDataContext/aspnet_Application/aspnet_Application_aspnet_Role" />
+      <nodes>
+        <classShapeMoniker Id="5f4d502c-cb2f-4310-88f9-a658af6715d7" />
+        <classShapeMoniker Id="e1bfa9af-1bcb-4019-8368-9f0993528c73" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 14.9319482421875); (9.25 : 14.9319482421875)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/MaevaDataContext/aspnet_User/aspnet_User_aspnet_Membership" />
+      <nodes>
+        <classShapeMoniker Id="51165c6a-a11f-4282-aa52-c6fb6b748362" />
+        <classShapeMoniker Id="62759c1e-3597-451d-8244-3553807709d0" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.5 : 12.875); (4.5 : 12.3958968098958); (5.79166666666667 : 12.3958968098958 : JumpStart); (5.95833333333333 : 12.3958968098958 : JumpEnd); (8.875 : 12.3958968098958); (8.875 : 11.5104484049479); (9.25 : 11.5104484049479)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/MaevaDataContext/aspnet_User/aspnet_User_aspnet_PersonalizationPerUser" />
+      <nodes>
+        <classShapeMoniker Id="51165c6a-a11f-4282-aa52-c6fb6b748362" />
+        <classShapeMoniker Id="201c3499-3e71-4b89-b204-3d5593924072" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 13.8854484049479); (6.25 : 13.8854484049479)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/MaevaDataContext/aspnet_User/aspnet_User_aspnet_Profile" />
+      <nodes>
+        <classShapeMoniker Id="51165c6a-a11f-4282-aa52-c6fb6b748362" />
+        <classShapeMoniker Id="d53367bd-964b-42d5-a3df-b7cb1dae0c50" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.2812525 : 12.3285953776042); (2.2812525 : 13.9527498372396); (3.5 : 13.9527498372396)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/MaevaDataContext/aspnet_Application/aspnet_Application_aspnet_User" />
+      <nodes>
+        <classShapeMoniker Id="5f4d502c-cb2f-4310-88f9-a658af6715d7" />
+        <classShapeMoniker Id="51165c6a-a11f-4282-aa52-c6fb6b748362" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 11.5729484049479); (6.25 : 11.5729484049479)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/MaevaDataContext/aspnet_Role/aspnet_Role_aspnet_UsersInRole" />
+      <nodes>
+        <classShapeMoniker Id="e1bfa9af-1bcb-4019-8368-9f0993528c73" />
+        <classShapeMoniker Id="3416e008-b286-4182-b08c-31caca37fd66" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 12.875); (5.875 : 12.5); (5.875 : 11.9147224589844); (6.25 : 11.9147224589844)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/MaevaDataContext/aspnet_User/aspnet_User_aspnet_UsersInRole" />
+      <nodes>
+        <classShapeMoniker Id="51165c6a-a11f-4282-aa52-c6fb6b748362" />
+        <classShapeMoniker Id="3416e008-b286-4182-b08c-31caca37fd66" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14 : 16.2267976888021); (14.75 : 16.2267976888021)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/MaevaDataContext/Usuario/Usuario_PerguntasVendedor" />
+      <nodes>
+        <classShapeMoniker Id="65cb7a3b-aae4-4156-b8f9-85fb542a7c24" />
+        <classShapeMoniker Id="6a20b6d9-1438-44f8-a620-871156a27d14" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14 : 15.988398844401); (14.75 : 15.988398844401)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/MaevaDataContext/Usuario/Usuario_PerguntasVendedor1" />
+      <nodes>
+        <classShapeMoniker Id="65cb7a3b-aae4-4156-b8f9-85fb542a7c24" />
+        <classShapeMoniker Id="6a20b6d9-1438-44f8-a620-871156a27d14" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(16.90625 : 12.4439925130208); (16.90625 : 15.5440991210937); (17.75 : 15.5440991210937)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/MaevaDataContext/Categoria/Categoria_Servico" />
+      <nodes>
+        <classShapeMoniker Id="4e0d55d1-16ae-49d2-b504-3a840e5eb129" />
+        <classShapeMoniker Id="c5385535-14c7-49af-958c-434afaf01d76" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14 : 15.7407995605469); (17.75 : 15.7407995605469)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/MaevaDataContext/Usuario/Usuario_Servico" />
+      <nodes>
+        <classShapeMoniker Id="65cb7a3b-aae4-4156-b8f9-85fb542a7c24" />
+        <classShapeMoniker Id="c5385535-14c7-49af-958c-434afaf01d76" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(13 : 15); (13 : 14.1249995); (14.75 : 14.1249995)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/MaevaDataContext/Usuario/Usuario_ServicosVendido" />
+      <nodes>
+        <classShapeMoniker Id="65cb7a3b-aae4-4156-b8f9-85fb542a7c24" />
+        <classShapeMoniker Id="ca156c96-763e-4f05-b49b-3327635fb545" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
